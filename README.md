@@ -15,7 +15,11 @@ EKSILERI
 -Eger USB ile bilgisayariniza veya baska bir cihaza baglayip baglanmaniz onem arz etmiyorsa yapmaniz gerekli degil.
 
 NELER GEREKLI?
+
 -Raspberry Pi Zero W 2 (Diger raspberry modellerinde de ayni yontemle calisacagina eminim)
+
 -USB-Micro USB kablosu (OTG kablosu)
+
 -Bir MICROSD kart ve SD kart adaptoru
+
 -Bir adet bilgisayar
