@@ -1,28 +1,26 @@
 # Rpizerow2usbgadget
-## Raspberry Pi Zero W 2 USB GADGET (Turkish Guide)
+## Raspberry Pi Zero W 2 USB GADGET (+HEADLESS)
 
-Guide altinda raspberry pi zero nuzu usb gadget olarak kullanmayi anlatacagim. Usb gadget olarak baglanan pi zero internet baglantisi olmaksizin usb kablosu araciligi ile baglandigi windows, mac veya anddroid cihaza VNC, SSH gibi yontemler ile baglanabilir.
+This guide about how to install headless Raspian Os to your Raspberry Pi Zero W2 without external keyboard or monitor. 
+## PROS
+- There is no need Internet connection for SSH or VNC to your RPI device.
+- HEADLESS build is too light.
+- Connection with OTG cable to your mobile devices.
+## CONS
+- If your are connected with USB cable to computer as a ETHERNET devices, then you need open internet sharing from your PC for RPI internet connection. You cant use wireless module while connected as ethernet device.
+- Don't do it if you don't need it.
+## REQUIREMENTS
+ - Raspberry Pi Zero W 2 (I think work same as other RPI   
+  - USB-Micro USB Cable (OTG CABLE)  
+   - MICROSD CARD with ADAPTER (SDHC card example)
+    - PC
+## INSTALLATION
 
-## ARTILARI
+![Format your SD card.](https://imgur.com/GPGGNql.png) 
+- Format your SD CARD( You can use SD Card Format apps or etc.)
+- [Download](https://www.raspberrypi.com/software/) Official Raspberry Pi Imager
+- [Download](https://www.raspberrypi.com/software/operating-systems/) Raspberry PI OS LITE
 
--Internet baglantisi olmadan SSH ve VNC uzerinden RPI Zero ya baglanabilmek.
+- Select Custom Images then choose your LITE OS tar.
 
--HEADLESS olarak Zero kurulumu yapabilmek.
-
--Mobil cihazlara kablo ile baglanabilmek.
-
-## EKSILERI
-
--Eger usb kablosu ile bilgisayariniza ETHERNET cihazi olarak baglanirsaniz Raspberry uzerindeki wifi ile interneti kullanamazsiniz. Bilgisayarinizdan Internet paylasimini acmaniz gerekli.
-
--Eger USB ile bilgisayariniza veya baska bir cihaza baglayip baglanmaniz onem arz etmiyorsa yapmaniz gerekli degil.
-
-## NELER GEREKLI?
-
--Raspberry Pi Zero W 2 (Diger raspberry modellerinde de ayni yontemle calisacagina eminim)
-
--USB-Micro USB kablosu (OTG kablosu)
-
--Bir MICROSD kart ve SD kart adaptoru
-
--Bir adet bilgisayar
+![x](https://imgur.com/a/YCEX5VL.png)
