@@ -71,17 +71,17 @@ Configure Wi-Fi:
     Create a file named wpa_supplicant.conf in the same directory and add the following content:
 
 Bash:
-
-    country=YOUR_COUNTRY_CODE
-    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-    update_config=1
+```
+country=YOUR_COUNTRY_CODE
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
     
-    network={
-    ssid="YOUR_WIFI_SSID"
-    psk="YOUR_WIFI_PASSWORD"
-    key_mgmt=WPA-PSK
-    }
-
+network={
+ssid="YOUR_WIFI_SSID"
+psk="YOUR_WIFI_PASSWORD"
+key_mgmt=WPA-PSK
+}
+```
 Replace YOUR_COUNTRY_CODE with the appropriate code for your location (e.g., US for the United States).
 Replace YOUR_WIFI_SSID and YOUR_WIFI_PASSWORD with your Wi-Fi network credentials.
 
